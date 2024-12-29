@@ -1,0 +1,54 @@
+/* product.css */
+
+/* General styling for category page */
+.category-page {
+    padding: 100px;
+    text-align: center;
+    background-color: rgb(195, 228, 142);
+  }
+  
+  /* Flex container to arrange product items */
+  .product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 20px;
+  }
+  
+  /* Individual product item box */
+  .product-item {
+    background-color: #f2faf3;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover effect for product items */
+  .product-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Product image style */
+  .product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Product name and price */
+  .product-item h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .product-item p {
+    color: #555;
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  

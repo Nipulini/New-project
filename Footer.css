@@ -1,0 +1,28 @@
+/* Footer Styles */
+.footer {
+    background-color: #222;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    width: 100%;  /* Ensure it spans the full width */
+    box-sizing: border-box;  /* Includes padding in the width calculation */
+    position: fixed; /* Keeps the footer at the bottom of the page */
+    bottom: 0;
+    left: 0;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .social-media a:hover {
+    color: #f0f0f0;
+  }
+  

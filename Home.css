@@ -1,0 +1,21 @@
+
+  
+.home-container {
+  height: 100vh; /* Full page height */
+  background-image: url('/images/wallpaper.png'); /* Path to your image */
+  background-size: cover; /* Make the image cover the container */
+  background-position: center; /* Center the image */
+  background-attachment: fixed; /* Keep the image fixed while scrolling */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-size-adjust: 30px;
+  text-align:left;
+  color: #fff; /* Ensure text is visible over the image */
+}
+
+ 
+  
+
+  
+  
